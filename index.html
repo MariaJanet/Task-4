@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="services.html">
+    <link rel="stylesheet" href="contacts.html">
+</head>
+<body class="ind">
+    <nav>
+        <ul>
+            <li><a onclick="scrollToSection('index')">Home</a></li>
+            <li><a onclick="scrollToSection('about')">About</a></li>
+            <li><a onclick="scrollToSection('services')">Services</a></li>
+            <li><a onclick="scrollToSection('contacts')">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id ="index" class="sec">
+        <h1 style="font-size: 300%;color: azure;">Welcome to Our Home Page</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum minus facere, commodi perspiciatis quas asperiores, obcaecati, magni et nulla voluptatem corporis autem laboriosam eligendi quam tenetur. At, dolor et.</p>
+    </section>
+    <section id="about" class="sec1">
+        <h1 class="h" style="font-size: 250%;color:black;">About Us</h1>
+        <div class="para">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid odit sed accusantium minima minus nobis cum perferendis impedit temporibus, unde blanditiis tempore placeat rem laboriosam enim ea voluptates vero eveniet!</p>
+        </div>
+        <button class="b">know more</button>
+    </section>
+    <section id= "services" class="se">
+        <h1 style="font-size: 300%;color: rgb(47, 166, 166);text-align: center;">Our Services</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum minus facere, commodi perspiciatis quas asperiores, obcaecati, magni et nulla voluptatem corporis autem laboriosam eligendi quam tenetur. At, dolor et.</p>
+    </section>
+    <section id="contacts" class="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect! Feel free to reach out to me for any queries, collaborations, or opportunities.</p>
+    
+        <div class="contact-info">
+            <p><strong>Email:</strong> jmariajanet16@gmail.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Location:</strong> Coimbatore, India</p>
+        </div>
+    
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
